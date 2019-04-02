@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8468
+D 1 MHz, Low-Power Op Amp, SC-70-5
+K single opamp
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP6561x-LT
+D 1.8V Low-Power Push-Pull Output Comparator, SC-70-5
+K single comparator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf
+$ENDCMP
+#
+$CMP TS881xCx
+D Rail-to-rail 0.9 V nanopower comparator, SC-70-5
+K single comparator
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/a2/60/3e/5d/b2/c1/4a/e9/DM00057901.pdf/files/DM00057901.pdf/jcr:content/translations/en.DM00057901.pdf
+$ENDCMP
+#
+#End Doc Library
