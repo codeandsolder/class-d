@@ -1,0 +1,161 @@
+Circuit: * C:\Users\forte\Desktop\class-d\spice.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+Gmin = 2.62144
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 2.42928
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00520833
+Gmin = 2.41431
+vernier = 0.00694444
+Gmin = 2.37794
+vernier = 0.00925925
+vernier = 0.0123457
+Gmin = 2.31957
+vernier = 0.0164609
+vernier = 0.0219478
+Gmin = 2.23005
+vernier = 0.0292638
+Gmin = 2.0922
+vernier = 0.0390184
+vernier = 0.0520245
+Gmin = 1.88498
+vernier = 0.0693659
+vernier = 0.0924879
+Gmin = 1.59861
+vernier = 0.123317
+Gmin = 1.2251
+vernier = 0.164423
+vernier = 0.0822114
+vernier = 0.0411057
+Gmin = 1.02147
+vernier = 0.0205529
+vernier = 0.0102764
+vernier = 0.00513821
+Gmin = 1.00975
+vernier = 0.00256911
+vernier = 0.00128455
+Gmin = 1.0049
+vernier = 0.00171274
+vernier = 0.000856369
+Gmin = 1.00275
+vernier = 0.000428184
+vernier = 0.000570912
+vernier = 0.000428184
+Gmin = 1.00221
+Gmin = 0
+Gmin stepping aborted per request.
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u5:5)
+Ignoring empty pin current: Ix(u5:5)
+Heightened Def Con from 6.46197e-007 to 6.46275e-007
+Heightened Def Con from 6.76675e-006 to 6.76685e-006
+Heightened Def Con from 1.29601e-005 to 1.29602e-005
+Heightened Def Con from 2.24212e-005 to 2.24272e-005
+Heightened Def Con from 2.78525e-005 to 2.78585e-005
+Heightened Def Con from 3.35458e-005 to 3.35518e-005
+Heightened Def Con from 3.82042e-005 to 3.82102e-005
+Heightened Def Con from 3.97505e-005 to 3.97565e-005
+Heightened Def Con from 4.4383e-005 to 4.43831e-005
+Heightened Def Con from 5.04797e-005 to 5.04798e-005
+Heightened Def Con from 5.41467e-005 to 5.41527e-005
+Heightened Def Con from 5.65961e-005 to 5.65962e-005
+Heightened Def Con from 6.12639e-005 to 6.12699e-005
+Heightened Def Con from 6.72884e-005 to 6.72944e-005
+Heightened Def Con from 6.90702e-005 to 6.90703e-005
+Heightened Def Con from 7.27005e-005 to 7.27065e-005
+Heightened Def Con from 7.80666e-005 to 7.80726e-005
+Heightened Def Con from 8.3714e-005 to 8.372e-005
+Heightened Def Con from 8.80064e-005 to 8.80065e-005
+Heightened Def Con from 8.98858e-005 to 8.98918e-005
+Heightened Def Con from 9.41413e-005 to 9.41413e-005
+Heightened Def Con from 0.000100253 to 0.000100253
+Heightened Def Con from 0.000133833 to 0.000133839
+Heightened Def Con from 0.000143976 to 0.000143976
+Heightened Def Con from 0.000147002 to 0.000147008
+Heightened Def Con from 0.000156185 to 0.000156185
+Heightened Def Con from 0.000161909 to 0.000161915
+Heightened Def Con from 0.000167718 to 0.000167724
+Heightened Def Con from 0.000172955 to 0.000172961
+Heightened Def Con from 0.00017493 to 0.00017493
+Heightened Def Con from 0.000187561 to 0.000187562
+Heightened Def Con from 0.000199823 to 0.000199823
+Heightened Def Con from 0.000205944 to 0.000205944
+Heightened Def Con from 0.000217763 to 0.000217769
+Heightened Def Con from 0.000222945 to 0.000222951
+Heightened Def Con from 0.000233717 to 0.000233723
+Heightened Def Con from 0.000237345 to 0.000237345
+Heightened Def Con from 0.000239845 to 0.000239851
+Heightened Def Con from 0.000243506 to 0.000243506
+Heightened Def Con from 0.000246822 to 0.000246828
+Heightened Def Con from 0.00024962 to 0.00024962
+Heightened Def Con from 0.000255759 to 0.000255759
+Heightened Def Con from 0.000267621 to 0.000267627
+Heightened Def Con from 0.000272792 to 0.000272798
+Heightened Def Con from 0.000283517 to 0.000283523
+Heightened Def Con from 0.000287156 to 0.000287156
+Heightened Def Con from 0.000289624 to 0.00028963
+Heightened Def Con from 0.000311487 to 0.000311493
+Heightened Def Con from 0.000311749 to 0.000311749
+Heightened Def Con from 0.000317288 to 0.000317294
+Heightened Def Con from 0.00032767 to 0.000327676
+Heightened Def Con from 0.00033318 to 0.000333186
+Heightened Def Con from 0.000355359 to 0.000355359
+Heightened Def Con from 0.000372066 to 0.000372072
+Heightened Def Con from 0.000377297 to 0.000377303
+Heightened Def Con from 0.00038879 to 0.000388796
+Heightened Def Con from 0.000399093 to 0.000399093
+Heightened Def Con from 0.000411394 to 0.000411394
+Heightened Def Con from 0.000416197 to 0.000416203
+Heightened Def Con from 0.00042156 to 0.000421566
+Heightened Def Con from 0.000423992 to 0.000423992
+Heightened Def Con from 0.000438328 to 0.000438334
+Heightened Def Con from 0.000444935 to 0.000444941
+Heightened Def Con from 0.000448962 to 0.000448962
+Heightened Def Con from 0.000452218 to 0.000452224
+Heightened Def Con from 0.000455093 to 0.000455093
+Heightened Def Con from 0.000459393 to 0.000459399
+Heightened Def Con from 0.000461261 to 0.000461261
+Heightened Def Con from 0.000465577 to 0.000465583
+Heightened Def Con from 0.000471055 to 0.000471061
+Heightened Def Con from 0.000481898 to 0.000481904
+Heightened Def Con from 0.000486565 to 0.000486565
+Heightened Def Con from 0.000492762 to 0.000492762
+Heightened Def Con from 0.000498859 to 0.000498859
+Heightened Def Con from 0.000501528 to 0.000501534
+Heightened Def Con from 0.000517426 to 0.000517426
+Heightened Def Con from 0.000523808 to 0.000523808
+
+Date: Tue Apr 02 14:58:18 2019
+Total elapsed time: 40.295 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 318022
+traniter = 312732
+tranpoints = 76090
+accept = 55542
+rejected = 20625
+matrix size = 308
+fillins = 489
+solver = Normal
+Thread vector: 80.3/30.7[4] 30.5/13.8[4] 11.6/7.1[4] 3.7/5.6[1]  2592/500
+Matrix Compiler1: 36.96 KB object code size  29.1/21.6/[5.2]
+Matrix Compiler2: 30.68 KB object code size  23.8/31.7/[5.1]
+

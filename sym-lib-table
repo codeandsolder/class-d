@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name AD8468)(type Legacy)(uri ${KIPRJMOD}/AD8468.lib)(options "")(descr ""))
   (lib (name LTC4444-5)(type Legacy)(uri ${KIPRJMOD}/LTC4444-5.lib)(options "")(descr ""))
+  (lib (name amplifier_board-rescue)(type Legacy)(uri ${KIPRJMOD}/amplifier_board-rescue.lib)(options "")(descr ""))
 )

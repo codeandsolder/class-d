@@ -1,0 +1,10 @@
+- uproszczony model o czesci nie wplywajacen an wynik ze wzgledu na predkosc symulacji
+- tranzystor:
+	Rdson stale prawie od 5v
+	niskie Vth
+	2 nF ladunek bramki - szybkie przelaczanie
+	do 40V, ~30A
+
+
+
+FIX CAPS
