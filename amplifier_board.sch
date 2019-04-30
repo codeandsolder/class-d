@@ -705,17 +705,6 @@ Wire Wire Line
 	2825 2350 2900 2350
 Wire Wire Line
 	2825 2500 2825 2450
-$Comp
-L amplifier_board-rescue:-5V-power #PWR0145
-U 1 1 5CCBC4BA
-P 7250 5425
-F 0 "#PWR0145" H 7250 5525 50  0001 C CNN
-F 1 "-5V" H 7300 5550 50  0000 C CNN
-F 2 "" H 7250 5425 50  0001 C CNN
-F 3 "" H 7250 5425 50  0001 C CNN
-	1    7250 5425
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	7250 5375 7250 5425
 Wire Wire Line
@@ -744,7 +733,7 @@ U 1 1 5CA5AAD0
 P 5300 3775
 F 0 "JP4" H 5300 4039 50  0000 C CNN
 F 1 "internal audio" H 5300 3948 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5300 3775 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5300 3775 50  0001 C CNN
 F 3 "~" H 5300 3775 50  0001 C CNN
 	1    5300 3775
 	0    1    1    0   
@@ -759,7 +748,7 @@ U 1 1 5CA99DBA
 P 7500 5225
 F 0 "C25" V 7375 5150 50  0000 C CNN
 F 1 "2.2uF" V 7375 5325 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7538 5075 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7538 5075 50  0001 C CNN
 F 3 "~" H 7500 5225 50  0001 C CNN
 	1    7500 5225
 	-1   0    0    1   
@@ -769,10 +758,10 @@ Wire Wire Line
 Wire Wire Line
 	7250 5375 7500 5375
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0101
 U 1 1 5CAC1E4C
 P 3800 2575
-F 0 "#PWR?" H 3800 2425 50  0001 C CNN
+F 0 "#PWR0101" H 3800 2425 50  0001 C CNN
 F 1 "+5V" H 3850 2725 50  0000 C CNN
 F 2 "" H 3800 2575 50  0001 C CNN
 F 3 "" H 3800 2575 50  0001 C CNN
@@ -791,10 +780,10 @@ Connection ~ 4225 2925
 Wire Wire Line
 	4225 2925 4325 2925
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0103
 U 1 1 5CAEFEC7
 P 3175 2800
-F 0 "#PWR?" H 3175 2650 50  0001 C CNN
+F 0 "#PWR0103" H 3175 2650 50  0001 C CNN
 F 1 "+5V" H 3225 2950 50  0000 C CNN
 F 2 "" H 3175 2800 50  0001 C CNN
 F 3 "" H 3175 2800 50  0001 C CNN
@@ -819,10 +808,10 @@ Connection ~ 3550 2825
 Wire Wire Line
 	3550 2825 3600 2825
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0104
 U 1 1 5CB29E5F
 P 4525 3475
-F 0 "#PWR?" H 4525 3225 50  0001 C CNN
+F 0 "#PWR0104" H 4525 3225 50  0001 C CNN
 F 1 "GND" H 4425 3375 50  0000 C CNN
 F 2 "" H 4525 3475 50  0001 C CNN
 F 3 "" H 4525 3475 50  0001 C CNN
@@ -834,12 +823,12 @@ Wire Wire Line
 Wire Wire Line
 	3325 2325 4550 2325
 $Comp
-L Connector_Generic:Conn_02x01 J?
+L Connector_Generic:Conn_02x01 J4
 U 1 1 5CB3E4E6
 P 10100 4500
-F 0 "J?" H 10375 4425 50  0000 L CNN
+F 0 "J4" H 10375 4425 50  0000 L CNN
 F 1 "speaker" H 10000 4400 50  0000 L CNN
-F 2 "" H 10100 4500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 10100 4500 50  0001 C CNN
 F 3 "~" H 10100 4500 50  0001 C CNN
 	1    10100 4500
 	0    1    1    0   
@@ -855,10 +844,10 @@ Connection ~ 10275 4800
 Wire Wire Line
 	10275 4800 10275 4825
 $Comp
-L AD8468:AD8468 U?
+L AD8468:AD8468 U8
 U 1 1 5CB4D2EE
 P 2750 4975
-F 0 "U?" H 2750 5150 50  0000 L CNN
+F 0 "U8" H 2750 5150 50  0000 L CNN
 F 1 "AD8468" H 2875 4875 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 2650 4775 50  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 2750 4975 50  0001 C CNN
@@ -870,10 +859,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 5275 2650 5325
 $Comp
-L amplifier_board-rescue:AD8001AR-Amplifier_Operational U?
+L amplifier_board-rescue:AD8001AR-Amplifier_Operational U7
 U 1 1 5CB62323
 P 3850 4875
-F 0 "U?" H 4050 4825 50  0000 L CNN
+F 0 "U7" H 4050 4825 50  0000 L CNN
 F 1 "AD8038" H 3900 4725 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3750 4675 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf" H 4000 5025 50  0001 C CNN
@@ -881,10 +870,10 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:R-Device R?
+L amplifier_board-rescue:R-Device R9
 U 1 1 5CB67810
 P 3250 4975
-F 0 "R?" V 3150 4925 50  0000 C CNN
+F 0 "R9" V 3150 4925 50  0000 C CNN
 F 1 "1k" V 3150 5050 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3180 4975 50  0001 C CNN
 F 3 "~" H 3250 4975 50  0001 C CNN
@@ -898,10 +887,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 4875 4250 4875
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C19
 U 1 1 5CB7CCA0
 P 3750 4275
-F 0 "C?" V 3625 4200 50  0000 C CNN
+F 0 "C19" V 3625 4200 50  0000 C CNN
 F 1 "1n" V 3625 4375 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3788 4125 50  0001 C CNN
 F 3 "~" H 3750 4275 50  0001 C CNN
@@ -909,12 +898,12 @@ F 3 "~" H 3750 4275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT_TRIM RV?
+L Device:R_POT_TRIM RV3
 U 1 1 5CB82A36
 P 2150 5075
-F 0 "RV?" H 2080 5121 50  0000 R CNN
+F 0 "RV3" H 2080 5121 50  0000 R CNN
 F 1 "OFF" H 2080 5030 50  0000 R CNN
-F 2 "" H 2150 5075 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2150 5075 50  0001 C CNN
 F 3 "~" H 2150 5075 50  0001 C CNN
 	1    2150 5075
 	1    0    0    -1  
@@ -933,10 +922,10 @@ Wire Wire Line
 Wire Wire Line
 	3500 4775 3550 4775
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0105
 U 1 1 5CB99D1F
 P 2150 4875
-F 0 "#PWR?" H 2150 4725 50  0001 C CNN
+F 0 "#PWR0105" H 2150 4725 50  0001 C CNN
 F 1 "+5V" H 2200 5025 50  0000 C CNN
 F 2 "" H 2150 4875 50  0001 C CNN
 F 3 "" H 2150 4875 50  0001 C CNN
@@ -944,10 +933,10 @@ F 3 "" H 2150 4875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0106
 U 1 1 5CB99DA2
 P 2150 5275
-F 0 "#PWR?" H 2150 5025 50  0001 C CNN
+F 0 "#PWR0106" H 2150 5025 50  0001 C CNN
 F 1 "GND" H 2150 5150 50  0000 C CNN
 F 2 "" H 2150 5275 50  0001 C CNN
 F 3 "" H 2150 5275 50  0001 C CNN
@@ -959,12 +948,12 @@ Wire Wire Line
 Wire Wire Line
 	2150 5275 2150 5225
 $Comp
-L Device:R_POT_TRIM RV?
+L Device:R_POT_TRIM RV1
 U 1 1 5CBA5EB6
 P 3100 4225
-F 0 "RV?" H 3031 4179 50  0000 R CNN
+F 0 "RV1" H 3031 4179 50  0000 R CNN
 F 1 "AMP" H 3031 4270 50  0000 R CNN
-F 2 "" H 3100 4225 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 3100 4225 50  0001 C CNN
 F 3 "~" H 3100 4225 50  0001 C CNN
 	1    3100 4225
 	-1   0    0    1   
@@ -988,10 +977,10 @@ Connection ~ 4250 4275
 Wire Wire Line
 	4250 4275 4250 4875
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0107
 U 1 1 5CBE3778
 P 3750 4525
-F 0 "#PWR?" H 3750 4375 50  0001 C CNN
+F 0 "#PWR0107" H 3750 4375 50  0001 C CNN
 F 1 "+5V" H 3800 4675 50  0000 C CNN
 F 2 "" H 3750 4525 50  0001 C CNN
 F 3 "" H 3750 4525 50  0001 C CNN
@@ -999,10 +988,10 @@ F 3 "" H 3750 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:-5V-power #PWR?
+L amplifier_board-rescue:-5V-power #PWR0108
 U 1 1 5CBE3B16
 P 3750 5225
-F 0 "#PWR?" H 3750 5325 50  0001 C CNN
+F 0 "#PWR0108" H 3750 5325 50  0001 C CNN
 F 1 "-5V" H 3675 5350 50  0000 C CNN
 F 2 "" H 3750 5225 50  0001 C CNN
 F 3 "" H 3750 5225 50  0001 C CNN
@@ -1010,10 +999,10 @@ F 3 "" H 3750 5225 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0109
 U 1 1 5CBE3D09
 P 5675 3950
-F 0 "#PWR?" H 5675 3800 50  0001 C CNN
+F 0 "#PWR0109" H 5675 3800 50  0001 C CNN
 F 1 "+5V" H 5725 4100 50  0000 C CNN
 F 2 "" H 5675 3950 50  0001 C CNN
 F 3 "" H 5675 3950 50  0001 C CNN
@@ -1021,10 +1010,10 @@ F 3 "" H 5675 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0110
 U 1 1 5CBF96C3
 P 5675 4650
-F 0 "#PWR?" H 5675 4400 50  0001 C CNN
+F 0 "#PWR0110" H 5675 4400 50  0001 C CNN
 F 1 "GND" H 5675 4525 50  0000 C CNN
 F 2 "" H 5675 4650 50  0001 C CNN
 F 3 "" H 5675 4650 50  0001 C CNN
@@ -1048,21 +1037,21 @@ Wire Wire Line
 Wire Wire Line
 	3750 5225 3750 5175
 $Comp
-L Regulator_Linear:L7805 U?
+L Regulator_Linear:L7805 U5
 U 1 1 5CC2545D
 P 2425 925
-F 0 "U?" H 2425 1167 50  0000 C CNN
+F 0 "U5" H 2425 1167 50  0000 C CNN
 F 1 "L7805" H 2425 1076 50  0000 C CNN
-F 2 "" H 2450 775 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 2450 775 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2425 875 50  0001 C CNN
 	1    2425 925 
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:CP-Device C?
+L amplifier_board-rescue:CP-Device C10
 U 1 1 5CC268F3
 P 2800 1075
-F 0 "C?" V 2925 975 50  0000 C CNN
+F 0 "C10" V 2925 975 50  0000 C CNN
 F 1 "large" V 2925 1150 50  0000 C CNN
 F 2 "Capacitors_ThroughHole:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 2838 925 50  0001 C CNN
 F 3 "~" H 2800 1075 50  0001 C CNN
@@ -1070,10 +1059,10 @@ F 3 "~" H 2800 1075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:CP-Device C?
+L amplifier_board-rescue:CP-Device C4
 U 1 1 5CC26C9E
 P 2050 1075
-F 0 "C?" V 2175 975 50  0000 C CNN
+F 0 "C4" V 2175 975 50  0000 C CNN
 F 1 "large" V 2175 1150 50  0000 C CNN
 F 2 "Capacitors_ThroughHole:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 2088 925 50  0001 C CNN
 F 3 "~" H 2050 1075 50  0001 C CNN
@@ -1081,10 +1070,10 @@ F 3 "~" H 2050 1075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C11
 U 1 1 5CC26F7A
 P 3075 1075
-F 0 "C?" V 2950 1000 50  0000 C CNN
+F 0 "C11" V 2950 1000 50  0000 C CNN
 F 1 "100nF" V 2950 1175 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3113 925 50  0001 C CNN
 F 3 "~" H 3075 1075 50  0001 C CNN
@@ -1092,10 +1081,10 @@ F 3 "~" H 3075 1075 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C2
 U 1 1 5CC4457A
 P 1825 1075
-F 0 "C?" V 1700 1000 50  0000 C CNN
+F 0 "C2" V 1700 1000 50  0000 C CNN
 F 1 "100nF" V 1700 1175 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1863 925 50  0001 C CNN
 F 3 "~" H 1825 1075 50  0001 C CNN
@@ -1122,10 +1111,10 @@ Connection ~ 2050 925
 Wire Wire Line
 	2050 925  2125 925 
 $Comp
-L amplifier_board-rescue:Conn_01x01_Female-Connector J?
+L amplifier_board-rescue:Conn_01x01_Female-Connector J1
 U 1 1 5CC642C3
 P 1525 925
-F 0 "J?" H 1475 1000 50  0000 L CNN
+F 0 "J1" H 1475 1000 50  0000 L CNN
 F 1 "VCC (7-14V)" H 1550 925 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_4mm_Pad" H 1525 925 50  0001 C CNN
 F 3 "~" H 1525 925 50  0001 C CNN
@@ -1133,10 +1122,10 @@ F 3 "~" H 1525 925 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:Conn_01x01_Female-Connector J?
+L amplifier_board-rescue:Conn_01x01_Female-Connector J3
 U 1 1 5CC64604
 P 1550 1225
-F 0 "J?" H 1550 1300 50  0000 C CNN
+F 0 "J3" H 1550 1300 50  0000 C CNN
 F 1 "GND" H 1650 1225 50  0000 C CNN
 F 2 "Mounting_Holes:MountingHole_4mm_Pad" H 1550 1225 50  0001 C CNN
 F 3 "~" H 1550 1225 50  0001 C CNN
@@ -1144,10 +1133,10 @@ F 3 "~" H 1550 1225 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0111
 U 1 1 5CC646E8
 P 2250 1225
-F 0 "#PWR?" H 2250 975 50  0001 C CNN
+F 0 "#PWR0111" H 2250 975 50  0001 C CNN
 F 1 "GND" H 2250 1075 50  0000 C CNN
 F 2 "" H 2250 1225 50  0001 C CNN
 F 3 "" H 2250 1225 50  0001 C CNN
@@ -1158,10 +1147,10 @@ Connection ~ 2250 1225
 Wire Wire Line
 	2250 1225 2425 1225
 $Comp
-L amplifier_board-rescue:VCC-power #PWR?
+L amplifier_board-rescue:VCC-power #PWR0112
 U 1 1 5CC6477D
 P 1950 925
-F 0 "#PWR?" H 1950 775 50  0001 C CNN
+F 0 "#PWR0112" H 1950 775 50  0001 C CNN
 F 1 "VCC" H 1967 1098 50  0000 C CNN
 F 2 "" H 1950 925 50  0001 C CNN
 F 3 "" H 1950 925 50  0001 C CNN
@@ -1178,10 +1167,10 @@ Wire Wire Line
 	1750 1225 1825 1225
 Connection ~ 1825 1225
 $Comp
-L amplifier_board-rescue:VCC-power #PWR?
+L amplifier_board-rescue:VCC-power #PWR0113
 U 1 1 5CC766FC
 P 7100 3825
-F 0 "#PWR?" H 7100 3675 50  0001 C CNN
+F 0 "#PWR0113" H 7100 3675 50  0001 C CNN
 F 1 "VCC" H 7117 3998 50  0000 C CNN
 F 2 "" H 7100 3825 50  0001 C CNN
 F 3 "" H 7100 3825 50  0001 C CNN
@@ -1190,12 +1179,12 @@ F 3 "" H 7100 3825 50  0001 C CNN
 $EndComp
 Connection ~ 7100 3825
 $Comp
-L Regulator_SwitchedCapacitor:LM2776 U?
+L Regulator_SwitchedCapacitor:LM2776 U6
 U 1 1 5CC89BF3
 P 1475 2050
-F 0 "U?" H 1200 2300 50  0000 L CNN
+F 0 "U6" H 1200 2300 50  0000 L CNN
 F 1 "LM2776" H 1550 1700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 1525 1700 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 1525 1700 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2776.pdf" H -375 3300 50  0001 C CNN
 	1    1475 2050
 	1    0    0    -1  
@@ -1203,10 +1192,10 @@ $EndComp
 Wire Wire Line
 	2800 925  2925 925 
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0114
 U 1 1 5CC92438
 P 2925 925
-F 0 "#PWR?" H 2925 775 50  0001 C CNN
+F 0 "#PWR0114" H 2925 775 50  0001 C CNN
 F 1 "+5V" H 2975 1075 50  0000 C CNN
 F 2 "" H 2925 925 50  0001 C CNN
 F 3 "" H 2925 925 50  0001 C CNN
@@ -1217,34 +1206,23 @@ Connection ~ 2925 925
 Wire Wire Line
 	2925 925  3075 925 
 $Comp
-L amplifier_board-rescue:-5V-power #PWR?
+L amplifier_board-rescue:-5V-power #PWR0115
 U 1 1 5CC92605
 P 2100 1950
-F 0 "#PWR?" H 2100 2050 50  0001 C CNN
+F 0 "#PWR0115" H 2100 2050 50  0001 C CNN
 F 1 "-5V" H 2025 2075 50  0000 C CNN
 F 2 "" H 2100 1950 50  0001 C CNN
 F 3 "" H 2100 1950 50  0001 C CNN
 	1    2100 1950
 	-1   0    0    1   
 $EndComp
-$Comp
-L amplifier_board-rescue:VCC-power #PWR?
-U 1 1 5CC92B30
-P 1475 1525
-F 0 "#PWR?" H 1475 1375 50  0001 C CNN
-F 1 "VCC" H 1492 1698 50  0000 C CNN
-F 2 "" H 1475 1525 50  0001 C CNN
-F 3 "" H 1475 1525 50  0001 C CNN
-	1    1475 1525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1475 1750 1475 1575
 $Comp
-L amplifier_board-rescue:VCC-power #PWR?
+L amplifier_board-rescue:VCC-power #PWR0117
 U 1 1 5CCBD4E6
 P 7250 5025
-F 0 "#PWR?" H 7250 4875 50  0001 C CNN
+F 0 "#PWR0117" H 7250 4875 50  0001 C CNN
 F 1 "VCC" H 7267 5198 50  0000 C CNN
 F 2 "" H 7250 5025 50  0001 C CNN
 F 3 "" H 7250 5025 50  0001 C CNN
@@ -1256,10 +1234,10 @@ Wire Wire Line
 Connection ~ 7250 5075
 Connection ~ 7250 5375
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C21
 U 1 1 5CCF4443
 P 2750 6025
-F 0 "C?" V 2625 5950 50  0000 C CNN
+F 0 "C21" V 2625 5950 50  0000 C CNN
 F 1 "100nF" V 2625 6125 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2788 5875 50  0001 C CNN
 F 3 "~" H 2750 6025 50  0001 C CNN
@@ -1267,10 +1245,10 @@ F 3 "~" H 2750 6025 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0118
 U 1 1 5CCF4449
 P 2750 6225
-F 0 "#PWR?" H 2750 5975 50  0001 C CNN
+F 0 "#PWR0118" H 2750 5975 50  0001 C CNN
 F 1 "GND" H 2750 6100 50  0000 C CNN
 F 2 "" H 2750 6225 50  0001 C CNN
 F 3 "" H 2750 6225 50  0001 C CNN
@@ -1278,10 +1256,10 @@ F 3 "" H 2750 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0119
 U 1 1 5CCF444F
 P 2750 5825
-F 0 "#PWR?" H 2750 5675 50  0001 C CNN
+F 0 "#PWR0119" H 2750 5675 50  0001 C CNN
 F 1 "+5V" H 2700 5975 50  0000 C CNN
 F 2 "" H 2750 5825 50  0001 C CNN
 F 3 "" H 2750 5825 50  0001 C CNN
@@ -1293,10 +1271,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 6225 2750 6175
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C18
 U 1 1 5CCFBB76
 P 3325 3550
-F 0 "C?" V 3200 3475 50  0000 C CNN
+F 0 "C18" V 3200 3475 50  0000 C CNN
 F 1 "100nF" V 3200 3650 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3363 3400 50  0001 C CNN
 F 3 "~" H 3325 3550 50  0001 C CNN
@@ -1304,10 +1282,10 @@ F 3 "~" H 3325 3550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0120
 U 1 1 5CCFBB7C
 P 3325 3750
-F 0 "#PWR?" H 3325 3500 50  0001 C CNN
+F 0 "#PWR0120" H 3325 3500 50  0001 C CNN
 F 1 "GND" H 3325 3625 50  0000 C CNN
 F 2 "" H 3325 3750 50  0001 C CNN
 F 3 "" H 3325 3750 50  0001 C CNN
@@ -1315,10 +1293,10 @@ F 3 "" H 3325 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0122
 U 1 1 5CCFBB82
 P 3325 3350
-F 0 "#PWR?" H 3325 3200 50  0001 C CNN
+F 0 "#PWR0122" H 3325 3200 50  0001 C CNN
 F 1 "+5V" H 3275 3500 50  0000 C CNN
 F 2 "" H 3325 3350 50  0001 C CNN
 F 3 "" H 3325 3350 50  0001 C CNN
@@ -1330,10 +1308,10 @@ Wire Wire Line
 Wire Wire Line
 	3325 3750 3325 3700
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C20
 U 1 1 5CD0AA9F
 P 3825 6000
-F 0 "C?" V 3700 5925 50  0000 C CNN
+F 0 "C20" V 3700 5925 50  0000 C CNN
 F 1 "100nF" V 3700 6100 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3863 5850 50  0001 C CNN
 F 3 "~" H 3825 6000 50  0001 C CNN
@@ -1341,10 +1319,10 @@ F 3 "~" H 3825 6000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0125
 U 1 1 5CD0AAAB
 P 3825 5800
-F 0 "#PWR?" H 3825 5650 50  0001 C CNN
+F 0 "#PWR0125" H 3825 5650 50  0001 C CNN
 F 1 "+5V" H 3775 5950 50  0000 C CNN
 F 2 "" H 3825 5800 50  0001 C CNN
 F 3 "" H 3825 5800 50  0001 C CNN
@@ -1356,10 +1334,10 @@ Wire Wire Line
 Wire Wire Line
 	3825 6200 3825 6150
 $Comp
-L amplifier_board-rescue:-5V-power #PWR?
+L amplifier_board-rescue:-5V-power #PWR0127
 U 1 1 5CD121B3
 P 3825 6200
-F 0 "#PWR?" H 3825 6300 50  0001 C CNN
+F 0 "#PWR0127" H 3825 6300 50  0001 C CNN
 F 1 "-5V" H 3750 6325 50  0000 C CNN
 F 2 "" H 3825 6200 50  0001 C CNN
 F 3 "" H 3825 6200 50  0001 C CNN
@@ -1367,10 +1345,10 @@ F 3 "" H 3825 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C17
 U 1 1 5CD124B5
 P 5675 2325
-F 0 "C?" V 5550 2250 50  0000 C CNN
+F 0 "C17" V 5550 2250 50  0000 C CNN
 F 1 "100nF" V 5550 2425 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5713 2175 50  0001 C CNN
 F 3 "~" H 5675 2325 50  0001 C CNN
@@ -1378,10 +1356,10 @@ F 3 "~" H 5675 2325 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:+5V-power #PWR?
+L amplifier_board-rescue:+5V-power #PWR0128
 U 1 1 5CD124BB
 P 5675 2125
-F 0 "#PWR?" H 5675 1975 50  0001 C CNN
+F 0 "#PWR0128" H 5675 1975 50  0001 C CNN
 F 1 "+5V" H 5625 2275 50  0000 C CNN
 F 2 "" H 5675 2125 50  0001 C CNN
 F 3 "" H 5675 2125 50  0001 C CNN
@@ -1393,10 +1371,10 @@ Wire Wire Line
 Wire Wire Line
 	5675 2525 5675 2475
 $Comp
-L amplifier_board-rescue:-5V-power #PWR?
+L amplifier_board-rescue:-5V-power #PWR0129
 U 1 1 5CD124C3
 P 5675 2525
-F 0 "#PWR?" H 5675 2625 50  0001 C CNN
+F 0 "#PWR0129" H 5675 2625 50  0001 C CNN
 F 1 "-5V" H 5600 2650 50  0000 C CNN
 F 2 "" H 5675 2525 50  0001 C CNN
 F 3 "" H 5675 2525 50  0001 C CNN
@@ -1404,10 +1382,10 @@ F 3 "" H 5675 2525 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C13
 U 1 1 5CD1A447
 P 1700 1575
-F 0 "C?" V 1775 1475 50  0000 C CNN
+F 0 "C13" V 1775 1475 50  0000 C CNN
 F 1 "2.2uF" V 1575 1600 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1738 1425 50  0001 C CNN
 F 3 "~" H 1700 1575 50  0001 C CNN
@@ -1415,10 +1393,10 @@ F 3 "~" H 1700 1575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0135
 U 1 1 5CD29BF3
 P 1850 1650
-F 0 "#PWR?" H 1850 1400 50  0001 C CNN
+F 0 "#PWR0135" H 1850 1400 50  0001 C CNN
 F 1 "GND" H 1850 1500 50  0000 C CNN
 F 2 "" H 1850 1650 50  0001 C CNN
 F 3 "" H 1850 1650 50  0001 C CNN
@@ -1433,10 +1411,10 @@ Connection ~ 1475 1575
 Wire Wire Line
 	1475 1575 1475 1525
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C15
 U 1 1 5CD41019
 P 900 2200
-F 0 "C?" V 775 2125 50  0000 C CNN
+F 0 "C15" V 775 2125 50  0000 C CNN
 F 1 "1uF" V 775 2300 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 938 2050 50  0001 C CNN
 F 3 "~" H 900 2200 50  0001 C CNN
@@ -1451,10 +1429,10 @@ Wire Wire Line
 	1075 2350 1075 2250
 NoConn ~ 1075 1950
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0136
 U 1 1 5CD59B7D
 P 1475 2500
-F 0 "#PWR?" H 1475 2250 50  0001 C CNN
+F 0 "#PWR0136" H 1475 2250 50  0001 C CNN
 F 1 "GND" H 1475 2350 50  0000 C CNN
 F 2 "" H 1475 2500 50  0001 C CNN
 F 3 "" H 1475 2500 50  0001 C CNN
@@ -1464,10 +1442,10 @@ $EndComp
 Wire Wire Line
 	1475 2450 1475 2500
 $Comp
-L amplifier_board-rescue:C-Device C?
+L amplifier_board-rescue:C-Device C14
 U 1 1 5CD6243C
 P 1925 2150
-F 0 "C?" V 1800 2075 50  0000 C CNN
+F 0 "C14" V 1800 2075 50  0000 C CNN
 F 1 "2.2uF" V 1800 2250 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1963 2000 50  0001 C CNN
 F 3 "~" H 1925 2150 50  0001 C CNN
@@ -1475,10 +1453,10 @@ F 3 "~" H 1925 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0143
 U 1 1 5CD625A8
 P 1925 2325
-F 0 "#PWR?" H 1925 2075 50  0001 C CNN
+F 0 "#PWR0143" H 1925 2075 50  0001 C CNN
 F 1 "GND" H 1925 2175 50  0000 C CNN
 F 2 "" H 1925 2325 50  0001 C CNN
 F 3 "" H 1925 2325 50  0001 C CNN
@@ -1498,4 +1476,26 @@ Wire Wire Line
 	9525 3500 9525 3800
 Wire Wire Line
 	9225 3500 9225 3800
+$Comp
+L amplifier_board-rescue:+5V-power #PWR0116
+U 1 1 5CA91B36
+P 1475 1525
+F 0 "#PWR0116" H 1475 1375 50  0001 C CNN
+F 1 "+5V" H 1525 1675 50  0000 C CNN
+F 2 "" H 1475 1525 50  0001 C CNN
+F 3 "" H 1475 1525 50  0001 C CNN
+	1    1475 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier_board-rescue:GND-power #PWR?
+U 1 1 5CA9219C
+P 7250 5425
+F 0 "#PWR?" H 7250 5175 50  0001 C CNN
+F 1 "GND" H 7255 5252 50  0000 C CNN
+F 2 "" H 7250 5425 50  0001 C CNN
+F 3 "" H 7250 5425 50  0001 C CNN
+	1    7250 5425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
