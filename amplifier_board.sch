@@ -14,39 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L amplifier_board-rescue:GND-power #PWR0102
-U 1 1 5CA1036A
-P 2825 2500
-F 0 "#PWR0102" H 2825 2250 50  0001 C CNN
-F 1 "GND" H 2830 2327 50  0000 C CNN
-F 2 "" H 2825 2500 50  0001 C CNN
-F 3 "" H 2825 2500 50  0001 C CNN
-	1    2825 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L amplifier_board-rescue:R-Device R2
-U 1 1 5CA10394
-P 3050 2250
-F 0 "R2" V 3125 2150 50  0000 C CNN
-F 1 "220" V 3125 2300 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2980 2250 50  0001 C CNN
-F 3 "~" H 3050 2250 50  0001 C CNN
-	1    3050 2250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L amplifier_board-rescue:R-Device R1
-U 1 1 5CA1041C
-P 3050 2350
-F 0 "R1" V 3000 2250 50  0000 R CNN
-F 1 "220" V 2950 2450 50  0000 R CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 2980 2350 50  0001 C CNN
-F 3 "~" H 3050 2350 50  0001 C CNN
-	1    3050 2350
-	0    -1   -1   0   
-$EndComp
 Text Label 5300 4825 1    50   ~ 0
 sawtooth
 $Comp
@@ -263,134 +230,74 @@ $EndComp
 $Comp
 L amplifier_board-rescue:Si7336ADP-Transistor_FET Q3
 U 1 1 5CA90C0E
-P 8275 4525
-F 0 "Q3" H 8125 4575 50  0000 L CNN
-F 1 "SQJ860EP" H 7975 4375 50  0000 L CNN
-F 2 "SMD_Packages:SO-8_PowerPAK_Vishay_Single" H 8475 4450 50  0001 L CIN
-F 3 "www.vishay.com/docs/73152/si7336adp.pdf" H 8275 4525 50  0001 L CNN
-	1    8275 4525
+P 8750 4525
+F 0 "Q3" H 8600 4575 50  0000 L CNN
+F 1 "SQJ402EP" H 8450 4375 50  0000 L CNN
+F 2 "SMD_Packages:SO-8_PowerPAK_Vishay_Single" H 8950 4450 50  0001 L CIN
+F 3 "www.vishay.com/docs/73152/si7336adp.pdf" H 8750 4525 50  0001 L CNN
+	1    8750 4525
 	1    0    0    -1  
 $EndComp
 $Comp
 L amplifier_board-rescue:Si7336ADP-Transistor_FET Q1
 U 1 1 5CA90E95
-P 8275 4075
-F 0 "Q1" H 8100 4125 50  0000 L CNN
-F 1 "SQJ860EP" H 7975 3925 50  0000 L CNN
-F 2 "SMD_Packages:SO-8_PowerPAK_Vishay_Single" H 8475 4000 50  0001 L CIN
-F 3 "www.vishay.com/docs/73152/si7336adp.pdf" H 8275 4075 50  0001 L CNN
-	1    8275 4075
+P 8750 4075
+F 0 "Q1" H 8575 4125 50  0000 L CNN
+F 1 "SQJ402EP" H 8450 3925 50  0000 L CNN
+F 2 "SMD_Packages:SO-8_PowerPAK_Vishay_Single" H 8950 4000 50  0001 L CIN
+F 3 "www.vishay.com/docs/73152/si7336adp.pdf" H 8750 4075 50  0001 L CNN
+	1    8750 4075
 	1    0    0    -1  
 $EndComp
 $Comp
 L amplifier_board-rescue:L-Device L1
 U 1 1 5CA90FC2
-P 8750 4300
-F 0 "L1" V 8825 4375 50  0000 C CNN
-F 1 "10uH" V 8825 4200 50  0000 C CNN
-F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical" H 8750 4300 50  0001 C CNN
-F 3 "~" H 8750 4300 50  0001 C CNN
-	1    8750 4300
+P 9225 4300
+F 0 "L1" V 9300 4375 50  0000 C CNN
+F 1 "10uH" V 9300 4200 50  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical" H 9225 4300 50  0001 C CNN
+F 3 "~" H 9225 4300 50  0001 C CNN
+	1    9225 4300
 	0    -1   -1   0   
 $EndComp
 $Comp
 L amplifier_board-rescue:C-Device C9
 U 1 1 5CA91729
-P 9075 4450
-F 0 "C9" H 9190 4496 50  0000 L CNN
-F 1 "1.5uF" H 9190 4405 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9113 4300 50  0001 C CNN
-F 3 "~" H 9075 4450 50  0001 C CNN
-	1    9075 4450
+P 9550 4450
+F 0 "C9" H 9665 4496 50  0000 L CNN
+F 1 "1.5uF" H 9665 4405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9588 4300 50  0001 C CNN
+F 3 "~" H 9550 4450 50  0001 C CNN
+	1    9550 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L amplifier_board-rescue:GND-power #PWR0132
 U 1 1 5CA917D7
-P 9075 4650
-F 0 "#PWR0132" H 9075 4400 50  0001 C CNN
-F 1 "GND" H 9080 4477 50  0000 C CNN
-F 2 "" H 9075 4650 50  0001 C CNN
-F 3 "" H 9075 4650 50  0001 C CNN
-	1    9075 4650
+P 9550 4650
+F 0 "#PWR0132" H 9550 4400 50  0001 C CNN
+F 1 "GND" H 9555 4477 50  0000 C CNN
+F 2 "" H 9550 4650 50  0001 C CNN
+F 3 "" H 9550 4650 50  0001 C CNN
+	1    9550 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L amplifier_board-rescue:C-Device C8
-U 1 1 5CA91838
-P 9375 4300
-F 0 "C8" V 9250 4225 50  0000 C CNN
-F 1 "100uF" V 9250 4400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9413 4150 50  0001 C CNN
-F 3 "~" H 9375 4300 50  0001 C CNN
-	1    9375 4300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	8375 4325 8375 4300
-Connection ~ 8375 4300
+	8850 4325 8850 4300
+Connection ~ 8850 4300
 Wire Wire Line
-	8375 4300 8375 4275
+	8850 4300 8850 4275
 Wire Wire Line
-	8900 4300 9075 4300
-Connection ~ 9075 4300
-Wire Wire Line
-	9075 4300 9225 4300
-$Comp
-L amplifier_board-rescue:C-Device C7
-U 1 1 5CA99BB0
-P 9375 4050
-F 0 "C7" V 9250 3975 50  0000 C CNN
-F 1 "100uF" V 9250 4150 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9413 3900 50  0001 C CNN
-F 3 "~" H 9375 4050 50  0001 C CNN
-	1    9375 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L amplifier_board-rescue:C-Device C5
-U 1 1 5CA99C2C
-P 9375 3800
-F 0 "C5" V 9250 3725 50  0000 C CNN
-F 1 "100uF" V 9250 3900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9413 3650 50  0001 C CNN
-F 3 "~" H 9375 3800 50  0001 C CNN
-	1    9375 3800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9225 4050 9225 3800
-Connection ~ 9225 3800
-Wire Wire Line
-	9225 4300 9225 4050
-Connection ~ 9225 4300
-Connection ~ 9225 4050
-Wire Wire Line
-	9525 4050 9525 4300
-Wire Wire Line
-	9525 3800 9525 4050
-Connection ~ 9525 4050
-Connection ~ 9525 3800
-$Comp
-L amplifier_board-rescue:CP-Device C1
-U 1 1 5CAB045E
-P 9375 3500
-F 0 "C1" V 9500 3400 50  0000 C CNN
-F 1 "large" V 9500 3575 50  0000 C CNN
-F 2 "Capacitors_ThroughHole:CP_Radial_D10.0mm_P2.50mm_P5.00mm" H 9413 3350 50  0001 C CNN
-F 3 "~" H 9375 3500 50  0001 C CNN
-	1    9375 3500
-	0    -1   -1   0   
-$EndComp
+	9375 4300 9550 4300
 $Comp
 L amplifier_board-rescue:C-Device C16
 U 1 1 5CABD33C
-P 7250 5225
-F 0 "C16" V 7125 5150 50  0000 C CNN
-F 1 "2.2uF" V 7125 5325 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7288 5075 50  0001 C CNN
-F 3 "~" H 7250 5225 50  0001 C CNN
-	1    7250 5225
+P 7725 5225
+F 0 "C16" V 7600 5150 50  0000 C CNN
+F 1 "2.2uF" V 7600 5325 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7763 5075 50  0001 C CNN
+F 3 "~" H 7725 5225 50  0001 C CNN
+	1    7725 5225
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -431,56 +338,33 @@ Wire Wire Line
 Wire Wire Line
 	5600 5500 5600 5450
 Wire Wire Line
-	9075 4650 9075 4600
+	9550 4650 9550 4600
 $Comp
 L amplifier_board-rescue:GND-power #PWR0137
 U 1 1 5CAED5E6
-P 8375 4775
-F 0 "#PWR0137" H 8375 4525 50  0001 C CNN
-F 1 "GND" H 8380 4602 50  0000 C CNN
-F 2 "" H 8375 4775 50  0001 C CNN
-F 3 "" H 8375 4775 50  0001 C CNN
-	1    8375 4775
+P 8850 4775
+F 0 "#PWR0137" H 8850 4525 50  0001 C CNN
+F 1 "GND" H 8855 4602 50  0000 C CNN
+F 2 "" H 8850 4775 50  0001 C CNN
+F 3 "" H 8850 4775 50  0001 C CNN
+	1    8850 4775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8375 4725 8375 4750
+	8850 4725 8850 4750
 $Comp
 L amplifier_board-rescue:VCC-power #PWR0138
 U 1 1 5CAF2F67
-P 8375 3825
-F 0 "#PWR0138" H 8375 3675 50  0001 C CNN
-F 1 "VCC" H 8392 3998 50  0000 C CNN
-F 2 "" H 8375 3825 50  0001 C CNN
-F 3 "" H 8375 3825 50  0001 C CNN
-	1    8375 3825
+P 8850 3825
+F 0 "#PWR0138" H 8850 3675 50  0001 C CNN
+F 1 "VCC" H 8867 3998 50  0000 C CNN
+F 2 "" H 8850 3825 50  0001 C CNN
+F 3 "" H 8850 3825 50  0001 C CNN
+	1    8850 3825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8375 3875 8375 3850
-$Comp
-L amplifier_board-rescue:Screw_Terminal_01x02-Connector J8
-U 1 1 5CAFE47C
-P 10475 4400
-F 0 "J8" H 10394 4075 50  0000 C CNN
-F 1 "speaker" H 10394 4166 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 10475 4400 50  0001 C CNN
-F 3 "~" H 10475 4400 50  0001 C CNN
-	1    10475 4400
-	1    0    0    1   
-$EndComp
-$Comp
-L amplifier_board-rescue:GND-power #PWR0139
-U 1 1 5CAFE530
-P 10275 4825
-F 0 "#PWR0139" H 10275 4575 50  0001 C CNN
-F 1 "GND" H 10280 4652 50  0000 C CNN
-F 2 "" H 10275 4825 50  0001 C CNN
-F 3 "" H 10275 4825 50  0001 C CNN
-	1    10275 4825
-	1    0    0    -1  
-$EndComp
-Connection ~ 9525 4300
+	8850 3875 8850 3850
 $Comp
 L amplifier_board-rescue:Q_NMOS_GSD-Device Q2
 U 1 1 5CB09C86
@@ -535,149 +419,128 @@ Wire Wire Line
 	6475 4600 6500 4600
 Wire Wire Line
 	6500 4600 6500 4400
-Wire Wire Line
-	6500 4400 7100 4400
 Connection ~ 6500 4600
 Wire Wire Line
 	6500 4600 6525 4600
-Wire Wire Line
-	6275 4300 7100 4300
-Connection ~ 6275 4300
 $Comp
 L amplifier_board-rescue:D_Schottky-Device D2
 U 1 1 5CB458CA
-P 8550 4050
-F 0 "D2" V 8504 4129 50  0000 L CNN
-F 1 "Schottky" V 8595 4129 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 8550 4050 50  0001 C CNN
-F 3 "~" H 8550 4050 50  0001 C CNN
-	1    8550 4050
+P 9025 4050
+F 0 "D2" V 8979 4129 50  0000 L CNN
+F 1 "Schottky" V 9070 4129 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 9025 4050 50  0001 C CNN
+F 3 "~" H 9025 4050 50  0001 C CNN
+	1    9025 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L amplifier_board-rescue:D_Schottky-Device D3
 U 1 1 5CB45B47
-P 8550 4550
-F 0 "D3" V 8504 4629 50  0000 L CNN
-F 1 "Schottky" V 8595 4629 50  0000 L CNN
-F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 8550 4550 50  0001 C CNN
-F 3 "~" H 8550 4550 50  0001 C CNN
-	1    8550 4550
+P 9025 4550
+F 0 "D3" V 8979 4629 50  0000 L CNN
+F 1 "Schottky" V 9070 4629 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 9025 4550 50  0001 C CNN
+F 3 "~" H 9025 4550 50  0001 C CNN
+	1    9025 4550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8375 3850 8550 3850
+	8850 3850 9025 3850
 Wire Wire Line
-	8550 3850 8550 3900
-Connection ~ 8375 3850
+	9025 3850 9025 3900
+Connection ~ 8850 3850
 Wire Wire Line
-	8375 3850 8375 3825
+	8850 3850 8850 3825
 Wire Wire Line
-	8375 4750 8550 4750
+	8850 4750 9025 4750
 Wire Wire Line
-	8550 4750 8550 4700
-Connection ~ 8375 4750
+	9025 4750 9025 4700
+Connection ~ 8850 4750
 Wire Wire Line
-	8375 4750 8375 4775
+	8850 4750 8850 4775
 Wire Wire Line
-	8550 4200 8550 4300
+	9025 4200 9025 4300
 Wire Wire Line
-	8375 4300 8550 4300
-Connection ~ 8550 4300
+	8850 4300 9025 4300
+Connection ~ 9025 4300
 Wire Wire Line
-	8550 4300 8550 4400
+	9025 4300 9025 4400
 Wire Wire Line
-	8550 4300 8600 4300
+	9025 4300 9075 4300
 $Comp
 L LTC4444-5:LTC4444-5 U3
 U 1 1 5CB7452D
-P 7400 4200
-F 0 "U3" H 7250 3850 50  0000 C CNN
-F 1 "LTC4444-5" H 7400 4450 50  0000 C CNN
-F 2 "Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm" H 7400 3750 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c" H 7200 3650 50  0001 C CNN
-	1    7400 4200
+P 7875 4200
+F 0 "U3" H 7725 3850 50  0000 C CNN
+F 1 "LTC4444-5" H 7875 4450 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm" H 7875 3750 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c" H 7675 3650 50  0001 C CNN
+	1    7875 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 4200 7950 4200
+	8175 4200 8425 4200
 Wire Wire Line
-	7950 4200 7950 4075
+	8425 4200 8425 4075
 Wire Wire Line
-	7950 4075 8075 4075
+	8425 4075 8550 4075
 Wire Wire Line
-	7700 4400 7950 4400
+	8175 4400 8425 4400
 Wire Wire Line
-	7950 4400 7950 4525
+	8425 4400 8425 4525
 Wire Wire Line
-	7950 4525 8075 4525
+	8425 4525 8550 4525
 Wire Wire Line
-	7700 4300 8000 4300
+	8175 4300 8475 4300
 $Comp
 L amplifier_board-rescue:C-Device C6
 U 1 1 5CBA51F1
-P 7850 3825
-F 0 "C6" V 7725 3750 50  0000 C CNN
-F 1 "100uF" V 7725 3925 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7888 3675 50  0001 C CNN
-F 3 "~" H 7850 3825 50  0001 C CNN
-	1    7850 3825
+P 8325 3825
+F 0 "C6" V 8200 3750 50  0000 C CNN
+F 1 "100uF" V 8200 3925 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8363 3675 50  0001 C CNN
+F 3 "~" H 8325 3825 50  0001 C CNN
+	1    8325 3825
 	0    1    1    0   
 $EndComp
 $Comp
 L amplifier_board-rescue:D_Schottky-Device D1
 U 1 1 5CBA54AB
-P 7400 3825
-F 0 "D1" H 7500 3725 50  0000 C CNN
-F 1 "Schottky" H 7275 3725 50  0000 C CNN
-F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 7400 3825 50  0001 C CNN
-F 3 "~" H 7400 3825 50  0001 C CNN
-	1    7400 3825
+P 7875 3825
+F 0 "D1" H 7975 3725 50  0000 C CNN
+F 1 "Schottky" H 7750 3725 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 7875 3825 50  0001 C CNN
+F 3 "~" H 7875 3825 50  0001 C CNN
+	1    7875 3825
 	-1   0    0    1   
 $EndComp
 $Comp
 L amplifier_board-rescue:GND-power #PWR0142
 U 1 1 5CBA58DC
-P 7450 4650
-F 0 "#PWR0142" H 7450 4400 50  0001 C CNN
-F 1 "GND" H 7455 4477 50  0000 C CNN
-F 2 "" H 7450 4650 50  0001 C CNN
-F 3 "" H 7450 4650 50  0001 C CNN
-	1    7450 4650
+P 7925 4650
+F 0 "#PWR0142" H 7925 4400 50  0001 C CNN
+F 1 "GND" H 7930 4477 50  0000 C CNN
+F 2 "" H 7925 4650 50  0001 C CNN
+F 3 "" H 7925 4650 50  0001 C CNN
+	1    7925 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7450 4650 7450 4600
+	7925 4650 7925 4600
 Wire Wire Line
-	8000 3825 8000 4300
-Connection ~ 8000 4300
+	8475 3825 8475 4300
+Connection ~ 8475 4300
 Wire Wire Line
-	8000 4300 8375 4300
+	8475 4300 8850 4300
 Wire Wire Line
-	7700 3825 7550 3825
+	8175 3825 8025 3825
 Wire Wire Line
-	7250 3825 7100 3825
+	7725 3825 7575 3825
 Wire Wire Line
-	7100 3825 7100 4050
-Connection ~ 7700 3825
+	7575 3825 7575 4050
+Connection ~ 8175 3825
 Wire Wire Line
-	7700 3825 7700 4050
-$Comp
-L amplifier_board-rescue:C-Device C3
-U 1 1 5CC01097
-P 7850 3550
-F 0 "C3" V 7725 3475 50  0000 C CNN
-F 1 "100uF" V 7725 3650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7888 3400 50  0001 C CNN
-F 3 "~" H 7850 3550 50  0001 C CNN
-	1    7850 3550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7700 3550 7700 3825
-Wire Wire Line
-	8000 3550 8000 3825
-Connection ~ 8000 3825
+	8175 3825 8175 4050
 Wire Wire Line
 	4900 3275 5050 3275
 Wire Wire Line
@@ -685,33 +548,18 @@ Wire Wire Line
 Wire Wire Line
 	5050 2975 5175 2975
 $Comp
-L amplifier_board-rescue:Conn_01x03-Connector_Generic J2
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5CC7617F
-P 2625 2350
-F 0 "J2" H 2625 2150 50  0000 C CNN
-F 1 "AUDIO" V 2725 2375 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2625 2350 50  0001 C CNN
-F 3 "~" H 2625 2350 50  0001 C CNN
-	1    2625 2350
+P 3050 2425
+F 0 "J2" H 3050 2225 50  0000 C CNN
+F 1 "AUDIO" V 3150 2450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 3050 2425 50  0001 C CNN
+F 3 "~" H 3050 2425 50  0001 C CNN
+	1    3050 2425
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3325 2350 3200 2350
-Wire Wire Line
-	3200 2250 3325 2250
-Wire Wire Line
-	2825 2250 2900 2250
-Wire Wire Line
-	2825 2350 2900 2350
-Wire Wire Line
-	2825 2500 2825 2450
-Wire Wire Line
-	7250 5375 7250 5425
-Wire Wire Line
-	3325 2250 3325 2325
-Connection ~ 3325 2325
-Wire Wire Line
-	3325 2325 3325 2350
+	7725 5375 7725 5425
 $Comp
 L amplifier_board-rescue:Jumper-Device JP2
 U 1 1 5CCF26A4
@@ -725,8 +573,6 @@ F 3 "~" H 4900 4875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 4875 5300 4875
-Wire Wire Line
-	10275 4400 10275 4800
 $Comp
 L amplifier_board-rescue:Jumper-Device JP4
 U 1 1 5CA5AAD0
@@ -745,18 +591,18 @@ Wire Wire Line
 $Comp
 L amplifier_board-rescue:C-Device C25
 U 1 1 5CA99DBA
-P 7500 5225
-F 0 "C25" V 7375 5150 50  0000 C CNN
-F 1 "2.2uF" V 7375 5325 50  0000 C CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 7538 5075 50  0001 C CNN
-F 3 "~" H 7500 5225 50  0001 C CNN
-	1    7500 5225
+P 7975 5225
+F 0 "C25" V 7850 5150 50  0000 C CNN
+F 1 "2.2uF" V 7850 5325 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8013 5075 50  0001 C CNN
+F 3 "~" H 7975 5225 50  0001 C CNN
+	1    7975 5225
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7500 5075 7250 5075
+	7975 5075 7725 5075
 Wire Wire Line
-	7250 5375 7500 5375
+	7725 5375 7975 5375
 $Comp
 L amplifier_board-rescue:+5V-power #PWR0101
 U 1 1 5CAC1E4C
@@ -820,29 +666,6 @@ F 3 "" H 4525 3475 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4525 3475 4525 3425
-Wire Wire Line
-	3325 2325 4550 2325
-$Comp
-L Connector_Generic:Conn_02x01 J4
-U 1 1 5CB3E4E6
-P 10100 4500
-F 0 "J4" H 10375 4425 50  0000 L CNN
-F 1 "speaker" H 10000 4400 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 10100 4500 50  0001 C CNN
-F 3 "~" H 10100 4500 50  0001 C CNN
-	1    10100 4500
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9525 4300 10100 4300
-Connection ~ 10100 4300
-Wire Wire Line
-	10100 4300 10275 4300
-Wire Wire Line
-	10100 4800 10275 4800
-Connection ~ 10275 4800
-Wire Wire Line
-	10275 4800 10275 4825
 $Comp
 L AD8468:AD8468 U8
 U 1 1 5CB4D2EE
@@ -913,7 +736,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 5075 2350 5575
 Wire Wire Line
-	2350 5575 3500 5575
+	2350 5575 3275 5575
 Connection ~ 2350 5075
 Wire Wire Line
 	2350 5075 2450 5075
@@ -1116,7 +939,7 @@ U 1 1 5CC642C3
 P 1525 925
 F 0 "J1" H 1475 1000 50  0000 L CNN
 F 1 "VCC (7-14V)" H 1550 925 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4mm_Pad" H 1525 925 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 1525 925 50  0001 C CNN
 F 3 "~" H 1525 925 50  0001 C CNN
 	1    1525 925 
 	-1   0    0    -1  
@@ -1127,7 +950,7 @@ U 1 1 5CC64604
 P 1550 1225
 F 0 "J3" H 1550 1300 50  0000 C CNN
 F 1 "GND" H 1650 1225 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_4mm_Pad" H 1550 1225 50  0001 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 1550 1225 50  0001 C CNN
 F 3 "~" H 1550 1225 50  0001 C CNN
 	1    1550 1225
 	-1   0    0    -1  
@@ -1169,15 +992,15 @@ Connection ~ 1825 1225
 $Comp
 L amplifier_board-rescue:VCC-power #PWR0113
 U 1 1 5CC766FC
-P 7100 3825
-F 0 "#PWR0113" H 7100 3675 50  0001 C CNN
-F 1 "VCC" H 7117 3998 50  0000 C CNN
-F 2 "" H 7100 3825 50  0001 C CNN
-F 3 "" H 7100 3825 50  0001 C CNN
-	1    7100 3825
+P 7575 3825
+F 0 "#PWR0113" H 7575 3675 50  0001 C CNN
+F 1 "VCC" H 7592 3998 50  0000 C CNN
+F 2 "" H 7575 3825 50  0001 C CNN
+F 3 "" H 7575 3825 50  0001 C CNN
+	1    7575 3825
 	1    0    0    -1  
 $EndComp
-Connection ~ 7100 3825
+Connection ~ 7575 3825
 $Comp
 L Regulator_SwitchedCapacitor:LM2776 U6
 U 1 1 5CC89BF3
@@ -1221,18 +1044,18 @@ Wire Wire Line
 $Comp
 L amplifier_board-rescue:VCC-power #PWR0117
 U 1 1 5CCBD4E6
-P 7250 5025
-F 0 "#PWR0117" H 7250 4875 50  0001 C CNN
-F 1 "VCC" H 7267 5198 50  0000 C CNN
-F 2 "" H 7250 5025 50  0001 C CNN
-F 3 "" H 7250 5025 50  0001 C CNN
-	1    7250 5025
+P 7725 5025
+F 0 "#PWR0117" H 7725 4875 50  0001 C CNN
+F 1 "VCC" H 7742 5198 50  0000 C CNN
+F 2 "" H 7725 5025 50  0001 C CNN
+F 3 "" H 7725 5025 50  0001 C CNN
+	1    7725 5025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 5025 7250 5075
-Connection ~ 7250 5075
-Connection ~ 7250 5375
+	7725 5025 7725 5075
+Connection ~ 7725 5075
+Connection ~ 7725 5375
 $Comp
 L amplifier_board-rescue:C-Device C21
 U 1 1 5CCF4443
@@ -1472,10 +1295,6 @@ Wire Wire Line
 Connection ~ 1925 1950
 Wire Wire Line
 	1925 1950 2100 1950
-Wire Wire Line
-	9525 3500 9525 3800
-Wire Wire Line
-	9225 3500 9225 3800
 $Comp
 L amplifier_board-rescue:+5V-power #PWR0116
 U 1 1 5CA91B36
@@ -1488,14 +1307,350 @@ F 3 "" H 1475 1525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amplifier_board-rescue:GND-power #PWR?
+L amplifier_board-rescue:GND-power #PWR0139
 U 1 1 5CA9219C
-P 7250 5425
-F 0 "#PWR?" H 7250 5175 50  0001 C CNN
-F 1 "GND" H 7255 5252 50  0000 C CNN
-F 2 "" H 7250 5425 50  0001 C CNN
-F 3 "" H 7250 5425 50  0001 C CNN
-	1    7250 5425
+P 7725 5425
+F 0 "#PWR0139" H 7725 5175 50  0001 C CNN
+F 1 "GND" H 7730 5252 50  0000 C CNN
+F 2 "" H 7725 5425 50  0001 C CNN
+F 3 "" H 7725 5425 50  0001 C CNN
+	1    7725 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J5
+U 1 1 5CCC2E4F
+P 9900 4300
+F 0 "J5" H 9928 4326 50  0000 L CNN
+F 1 "B" H 9928 4235 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 9900 4300 50  0001 C CNN
+F 3 "~" H 9900 4300 50  0001 C CNN
+	1    9900 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4300 9700 4300
+Connection ~ 9550 4300
+$Comp
+L amplifier_board-rescue:Si7336ADP-Transistor_FET Q5
+U 1 1 5CCD8DB5
+P 8800 3100
+F 0 "Q5" H 8650 3150 50  0000 L CNN
+F 1 "SQJ402EP" H 8500 2950 50  0000 L CNN
+F 2 "SMD_Packages:SO-8_PowerPAK_Vishay_Single" H 9000 3025 50  0001 L CIN
+F 3 "www.vishay.com/docs/73152/si7336adp.pdf" H 8800 3100 50  0001 L CNN
+	1    8800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier_board-rescue:Si7336ADP-Transistor_FET Q4
+U 1 1 5CCD8DBB
+P 8800 2650
+F 0 "Q4" H 8625 2700 50  0000 L CNN
+F 1 "SQJ402EP" H 8500 2500 50  0000 L CNN
+F 2 "SMD_Packages:SO-8_PowerPAK_Vishay_Single" H 9000 2575 50  0001 L CIN
+F 3 "www.vishay.com/docs/73152/si7336adp.pdf" H 8800 2650 50  0001 L CNN
+	1    8800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier_board-rescue:L-Device L2
+U 1 1 5CCD8DC1
+P 9275 2875
+F 0 "L2" V 9350 2950 50  0000 C CNN
+F 1 "10uH" V 9350 2775 50  0000 C CNN
+F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical" H 9275 2875 50  0001 C CNN
+F 3 "~" H 9275 2875 50  0001 C CNN
+	1    9275 2875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L amplifier_board-rescue:C-Device C7
+U 1 1 5CCD8DC7
+P 9600 3025
+F 0 "C7" H 9715 3071 50  0000 L CNN
+F 1 "1.5uF" H 9715 2980 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9638 2875 50  0001 C CNN
+F 3 "~" H 9600 3025 50  0001 C CNN
+	1    9600 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier_board-rescue:GND-power #PWR0144
+U 1 1 5CCD8DCD
+P 9600 3225
+F 0 "#PWR0144" H 9600 2975 50  0001 C CNN
+F 1 "GND" H 9605 3052 50  0000 C CNN
+F 2 "" H 9600 3225 50  0001 C CNN
+F 3 "" H 9600 3225 50  0001 C CNN
+	1    9600 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2900 8900 2875
+Connection ~ 8900 2875
+Wire Wire Line
+	8900 2875 8900 2850
+Wire Wire Line
+	9425 2875 9600 2875
+Wire Wire Line
+	9600 3225 9600 3175
+$Comp
+L amplifier_board-rescue:GND-power #PWR0145
+U 1 1 5CCD8DD8
+P 8900 3350
+F 0 "#PWR0145" H 8900 3100 50  0001 C CNN
+F 1 "GND" H 8905 3177 50  0000 C CNN
+F 2 "" H 8900 3350 50  0001 C CNN
+F 3 "" H 8900 3350 50  0001 C CNN
+	1    8900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3300 8900 3325
+$Comp
+L amplifier_board-rescue:VCC-power #PWR0146
+U 1 1 5CCD8DDF
+P 8900 2400
+F 0 "#PWR0146" H 8900 2250 50  0001 C CNN
+F 1 "VCC" H 8917 2573 50  0000 C CNN
+F 2 "" H 8900 2400 50  0001 C CNN
+F 3 "" H 8900 2400 50  0001 C CNN
+	1    8900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 2450 8900 2425
+$Comp
+L amplifier_board-rescue:D_Schottky-Device D5
+U 1 1 5CCD8DE8
+P 9075 2625
+F 0 "D5" V 9029 2704 50  0000 L CNN
+F 1 "Schottky" V 9120 2704 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 9075 2625 50  0001 C CNN
+F 3 "~" H 9075 2625 50  0001 C CNN
+	1    9075 2625
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier_board-rescue:D_Schottky-Device D6
+U 1 1 5CCD8DEE
+P 9075 3125
+F 0 "D6" V 9029 3204 50  0000 L CNN
+F 1 "Schottky" V 9120 3204 50  0000 L CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 9075 3125 50  0001 C CNN
+F 3 "~" H 9075 3125 50  0001 C CNN
+	1    9075 3125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8900 2425 9075 2425
+Wire Wire Line
+	9075 2425 9075 2475
+Connection ~ 8900 2425
+Wire Wire Line
+	8900 2425 8900 2400
+Wire Wire Line
+	8900 3325 9075 3325
+Wire Wire Line
+	9075 3325 9075 3275
+Connection ~ 8900 3325
+Wire Wire Line
+	8900 3325 8900 3350
+Wire Wire Line
+	9075 2775 9075 2875
+Wire Wire Line
+	8900 2875 9075 2875
+Connection ~ 9075 2875
+Wire Wire Line
+	9075 2875 9075 2975
+Wire Wire Line
+	9075 2875 9125 2875
+$Comp
+L LTC4444-5:LTC4444-5 U9
+U 1 1 5CCD8E01
+P 7925 2775
+F 0 "U9" H 7775 2425 50  0000 C CNN
+F 1 "LTC4444-5" H 7925 3025 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm" H 7925 2325 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c" H 7725 2225 50  0001 C CNN
+	1    7925 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 2775 8475 2775
+Wire Wire Line
+	8475 2775 8475 2650
+Wire Wire Line
+	8475 2650 8600 2650
+Wire Wire Line
+	8225 2975 8475 2975
+Wire Wire Line
+	8475 2975 8475 3100
+Wire Wire Line
+	8475 3100 8600 3100
+Wire Wire Line
+	8225 2875 8525 2875
+$Comp
+L amplifier_board-rescue:C-Device C5
+U 1 1 5CCD8E0E
+P 8375 2400
+F 0 "C5" V 8250 2325 50  0000 C CNN
+F 1 "100uF" V 8250 2500 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8413 2250 50  0001 C CNN
+F 3 "~" H 8375 2400 50  0001 C CNN
+	1    8375 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L amplifier_board-rescue:D_Schottky-Device D4
+U 1 1 5CCD8E14
+P 7925 2400
+F 0 "D4" H 8025 2300 50  0000 C CNN
+F 1 "Schottky" H 7800 2300 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMA-SMB_Universal_Handsoldering" H 7925 2400 50  0001 C CNN
+F 3 "~" H 7925 2400 50  0001 C CNN
+	1    7925 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L amplifier_board-rescue:GND-power #PWR0147
+U 1 1 5CCD8E1A
+P 7975 3225
+F 0 "#PWR0147" H 7975 2975 50  0001 C CNN
+F 1 "GND" H 7980 3052 50  0000 C CNN
+F 2 "" H 7975 3225 50  0001 C CNN
+F 3 "" H 7975 3225 50  0001 C CNN
+	1    7975 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7975 3225 7975 3175
+Wire Wire Line
+	8525 2400 8525 2875
+Connection ~ 8525 2875
+Wire Wire Line
+	8525 2875 8900 2875
+Wire Wire Line
+	8225 2400 8075 2400
+Wire Wire Line
+	7775 2400 7625 2400
+Wire Wire Line
+	7625 2400 7625 2625
+Connection ~ 8225 2400
+Wire Wire Line
+	8225 2400 8225 2625
+$Comp
+L amplifier_board-rescue:VCC-power #PWR0148
+U 1 1 5CCD8E32
+P 7625 2400
+F 0 "#PWR0148" H 7625 2250 50  0001 C CNN
+F 1 "VCC" H 7642 2573 50  0000 C CNN
+F 2 "" H 7625 2400 50  0001 C CNN
+F 3 "" H 7625 2400 50  0001 C CNN
+	1    7625 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7625 2400
+$Comp
+L Connector:Conn_01x01_Female J4
+U 1 1 5CCD8E39
+P 9950 2875
+F 0 "J4" H 9978 2901 50  0000 L CNN
+F 1 "A" H 9978 2810 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 9950 2875 50  0001 C CNN
+F 3 "~" H 9950 2875 50  0001 C CNN
+	1    9950 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2875 9750 2875
+Connection ~ 9600 2875
+Wire Wire Line
+	7625 2875 7350 2875
+Wire Wire Line
+	7350 2875 7350 4400
+Wire Wire Line
+	7350 4400 7575 4400
+Wire Wire Line
+	7625 2975 7475 2975
+Wire Wire Line
+	7475 2975 7475 4300
+Wire Wire Line
+	7475 4300 7575 4300
+$Comp
+L amplifier_board-rescue:C-Device C8
+U 1 1 5CCF6BEC
+P 3275 5725
+F 0 "C8" V 3150 5650 50  0000 C CNN
+F 1 "2.2uF" V 3150 5825 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3313 5575 50  0001 C CNN
+F 3 "~" H 3275 5725 50  0001 C CNN
+	1    3275 5725
+	-1   0    0    1   
+$EndComp
+Connection ~ 3275 5575
+Wire Wire Line
+	3275 5575 3500 5575
+$Comp
+L amplifier_board-rescue:GND-power #PWR0149
+U 1 1 5CCF6D20
+P 3275 5925
+F 0 "#PWR0149" H 3275 5675 50  0001 C CNN
+F 1 "GND" H 3275 5800 50  0000 C CNN
+F 2 "" H 3275 5925 50  0001 C CNN
+F 3 "" H 3275 5925 50  0001 C CNN
+	1    3275 5925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 5875 3275 5925
+$Comp
+L amplifier_board-rescue:Jumper-Device JP1
+U 1 1 5CD2B7DE
+P 6875 4300
+F 0 "JP1" H 6875 4564 50  0000 C CNN
+F 1 "Jumper-Device" H 6875 4473 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6875 4300 50  0001 C CNN
+F 3 "" H 6875 4300 50  0001 C CNN
+	1    6875 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier_board-rescue:Jumper-Device JP3
+U 1 1 5CD2B8A0
+P 6875 4400
+F 0 "JP3" H 6875 4664 50  0000 C CNN
+F 1 "Jumper-Device" H 6875 4573 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6875 4400 50  0001 C CNN
+F 3 "" H 6875 4400 50  0001 C CNN
+	1    6875 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6275 4300 6575 4300
+Connection ~ 6275 4300
+Wire Wire Line
+	6500 4400 6575 4400
+Wire Wire Line
+	7175 4400 7350 4400
+Connection ~ 7350 4400
+Wire Wire Line
+	7175 4300 7475 4300
+Connection ~ 7475 4300
+Wire Wire Line
+	3250 2425 3325 2425
+Wire Wire Line
+	3250 2325 4550 2325
+$Comp
+L amplifier_board-rescue:GND-power #PWR0102
+U 1 1 5CD7ECEA
+P 3325 2425
+F 0 "#PWR0102" H 3325 2175 50  0001 C CNN
+F 1 "GND" H 3225 2325 50  0000 C CNN
+F 2 "" H 3325 2425 50  0001 C CNN
+F 3 "" H 3325 2425 50  0001 C CNN
+	1    3325 2425
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
