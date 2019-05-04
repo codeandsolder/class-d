@@ -644,8 +644,6 @@ Wire Wire Line
 	2975 3075 2975 3100
 Wire Wire Line
 	2975 3075 3025 3075
-Wire Wire Line
-	3625 3075 3650 3075
 $Comp
 L amplifier_board-rescue:GND-power #PWR0104
 U 1 1 5CB29E5F
