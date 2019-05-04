@@ -265,7 +265,7 @@ L amplifier_board-rescue:C-Device C9
 U 1 1 5CA91729
 P 9650 4550
 F 0 "C9" H 9765 4596 50  0000 L CNN
-F 1 "1.5uF" H 9765 4505 50  0000 L CNN
+F 1 "1uF" H 9765 4505 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9688 4400 50  0001 C CNN
 F 3 "~" H 9650 4550 50  0001 C CNN
 	1    9650 4550
@@ -497,7 +497,7 @@ L amplifier_board-rescue:C-Device C6
 U 1 1 5CBA51F1
 P 8425 3925
 F 0 "C6" V 8300 3850 50  0000 C CNN
-F 1 "1.5uF" V 8300 4025 50  0000 C CNN
+F 1 "1uF" V 8300 4025 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8463 3775 50  0001 C CNN
 F 3 "~" H 8425 3925 50  0001 C CNN
 	1    8425 3925
@@ -1242,16 +1242,16 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Female J5
 U 1 1 5CCC2E4F
-P 10000 4400
-F 0 "J5" H 10028 4426 50  0000 L CNN
-F 1 "B" H 10028 4335 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10000 4400 50  0001 C CNN
-F 3 "~" H 10000 4400 50  0001 C CNN
-	1    10000 4400
+P 10425 4400
+F 0 "J5" H 10453 4426 50  0000 L CNN
+F 1 "B" H 10453 4335 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10425 4400 50  0001 C CNN
+F 3 "~" H 10425 4400 50  0001 C CNN
+	1    10425 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 4400 9800 4400
+	9650 4400 10100 4400
 Connection ~ 9650 4400
 $Comp
 L amplifier_board-rescue:Si7336ADP-Transistor_FET Q5
@@ -1291,7 +1291,7 @@ L amplifier_board-rescue:C-Device C7
 U 1 1 5CCD8DC7
 P 9700 3125
 F 0 "C7" H 9815 3171 50  0000 L CNN
-F 1 "1.5uF" H 9815 3080 50  0000 L CNN
+F 1 "1uF" H 9815 3080 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 9738 2975 50  0001 C CNN
 F 3 "~" H 9700 3125 50  0001 C CNN
 	1    9700 3125
@@ -1418,7 +1418,7 @@ L amplifier_board-rescue:C-Device C5
 U 1 1 5CCD8E0E
 P 8475 2500
 F 0 "C5" V 8350 2425 50  0000 C CNN
-F 1 "1.5uF" V 8350 2600 50  0000 C CNN
+F 1 "1uF" V 8350 2600 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8513 2350 50  0001 C CNN
 F 3 "~" H 8475 2500 50  0001 C CNN
 	1    8475 2500
@@ -1477,16 +1477,16 @@ Connection ~ 7725 2500
 $Comp
 L Connector:Conn_01x01_Female J4
 U 1 1 5CCD8E39
-P 10050 2975
-F 0 "J4" H 10078 3001 50  0000 L CNN
-F 1 "A" H 10078 2910 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10050 2975 50  0001 C CNN
-F 3 "~" H 10050 2975 50  0001 C CNN
-	1    10050 2975
+P 10425 2975
+F 0 "J4" H 10453 3001 50  0000 L CNN
+F 1 "A" H 10453 2910 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 10425 2975 50  0001 C CNN
+F 3 "~" H 10425 2975 50  0001 C CNN
+	1    10425 2975
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 2975 9850 2975
+	9700 2975 10100 2975
 Connection ~ 9700 2975
 Wire Wire Line
 	7725 2975 7450 2975
@@ -1782,7 +1782,7 @@ L amplifier_board-rescue:C-Device C24
 U 1 1 5CDEC76F
 P 4125 1400
 F 0 "C24" H 4000 1500 50  0000 L CNN
-F 1 "1.5uF" H 3925 1300 50  0000 L CNN
+F 1 "1uF" H 3925 1300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4163 1250 50  0001 C CNN
 F 3 "~" H 4125 1400 50  0001 C CNN
 	1    4125 1400
@@ -1941,4 +1941,84 @@ Wire Wire Line
 Connection ~ 1275 3300
 Wire Wire Line
 	1000 3400 1475 3400
+$Comp
+L amplifier_board-rescue:C-Device C15
+U 1 1 5CFA00C0
+P 10100 3125
+F 0 "C15" H 10215 3171 50  0000 L CNN
+F 1 "1uF" H 10215 3080 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 10138 2975 50  0001 C CNN
+F 3 "~" H 10100 3125 50  0001 C CNN
+	1    10100 3125
+	1    0    0    -1  
+$EndComp
+Connection ~ 10100 2975
+Wire Wire Line
+	10100 2975 10225 2975
+$Comp
+L amplifier_board-rescue:C-Device C27
+U 1 1 5CFA01AA
+P 10100 3475
+F 0 "C27" H 10215 3521 50  0000 L CNN
+F 1 "1uF" H 10215 3430 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 10138 3325 50  0001 C CNN
+F 3 "~" H 10100 3475 50  0001 C CNN
+	1    10100 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier_board-rescue:GND-power #PWR0136
+U 1 1 5CFA026A
+P 10100 3675
+F 0 "#PWR0136" H 10100 3425 50  0001 C CNN
+F 1 "GND" H 10105 3502 50  0000 C CNN
+F 2 "" H 10100 3675 50  0001 C CNN
+F 3 "" H 10100 3675 50  0001 C CNN
+	1    10100 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3675 10100 3625
+Wire Wire Line
+	10100 3325 10100 3275
+$Comp
+L amplifier_board-rescue:C-Device C28
+U 1 1 5CFBC018
+P 10100 4550
+F 0 "C28" H 10215 4596 50  0000 L CNN
+F 1 "1uF" H 10215 4505 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 10138 4400 50  0001 C CNN
+F 3 "~" H 10100 4550 50  0001 C CNN
+	1    10100 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier_board-rescue:C-Device C29
+U 1 1 5CFBC020
+P 10100 4900
+F 0 "C29" H 10215 4946 50  0000 L CNN
+F 1 "1uF" H 10215 4855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 10138 4750 50  0001 C CNN
+F 3 "~" H 10100 4900 50  0001 C CNN
+	1    10100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L amplifier_board-rescue:GND-power #PWR0156
+U 1 1 5CFBC026
+P 10100 5100
+F 0 "#PWR0156" H 10100 4850 50  0001 C CNN
+F 1 "GND" H 10105 4927 50  0000 C CNN
+F 2 "" H 10100 5100 50  0001 C CNN
+F 3 "" H 10100 5100 50  0001 C CNN
+	1    10100 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5100 10100 5050
+Wire Wire Line
+	10100 4750 10100 4700
+Connection ~ 10100 4400
+Wire Wire Line
+	10100 4400 10225 4400
 $EndSCHEMATC
