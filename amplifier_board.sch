@@ -32,7 +32,7 @@ L amplifier_board-rescue:R-Device R8
 U 1 1 5CA2C63F
 P 3175 3075
 F 0 "R8" V 3275 3025 50  0000 C CNN
-F 1 "10k" V 3275 3175 50  0000 C CNN
+F 1 "11k" V 3275 3175 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3105 3075 50  0001 C CNN
 F 3 "~" H 3175 3075 50  0001 C CNN
 	1    3175 3075
@@ -102,7 +102,7 @@ L amplifier_board-rescue:R-Device R4
 U 1 1 5CA3D4F1
 P 4575 3025
 F 0 "R4" V 4368 3025 50  0000 C CNN
-F 1 "50k" V 4459 3025 50  0000 C CNN
+F 1 "68k" V 4459 3025 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4505 3025 50  0001 C CNN
 F 3 "~" H 4575 3025 50  0001 C CNN
 	1    4575 3025
@@ -127,8 +127,8 @@ $Comp
 L amplifier_board-rescue:R-Device R7
 U 1 1 5CA3D508
 P 5200 3525
-F 0 "R7" V 5100 3475 50  0000 C CNN
-F 1 "50k" V 5100 3600 50  0000 C CNN
+F 0 "R7" V 5300 3425 50  0000 C CNN
+F 1 "68k" V 5300 3625 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5130 3525 50  0001 C CNN
 F 3 "~" H 5200 3525 50  0001 C CNN
 	1    5200 3525
@@ -396,7 +396,7 @@ L amplifier_board-rescue:R-Device R12
 U 1 1 5CB1AE26
 P 6775 4700
 F 0 "R12" V 6850 4675 50  0000 R CNN
-F 1 "10k" V 6850 4850 50  0000 R CNN
+F 1 "11k" V 6850 4850 50  0000 R CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6705 4700 50  0001 C CNN
 F 3 "~" H 6775 4700 50  0001 C CNN
 	1    6775 4700
@@ -929,23 +929,23 @@ Wire Wire Line
 $Comp
 L amplifier_board-rescue:Conn_01x01_Female-Connector J1
 U 1 1 5CC642C3
-P 1525 925
-F 0 "J1" H 1475 1000 50  0000 L CNN
-F 1 "VCC (7-14V)" H 1550 925 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 1525 925 50  0001 C CNN
-F 3 "~" H 1525 925 50  0001 C CNN
-	1    1525 925 
+P 1300 925
+F 0 "J1" H 1250 1000 50  0000 L CNN
+F 1 "VCC (7-14V)" H 1325 925 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 1300 925 50  0001 C CNN
+F 3 "~" H 1300 925 50  0001 C CNN
+	1    1300 925 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L amplifier_board-rescue:Conn_01x01_Female-Connector J3
 U 1 1 5CC64604
-P 1550 1225
-F 0 "J3" H 1550 1300 50  0000 C CNN
-F 1 "GND" H 1650 1225 50  0000 C CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 1550 1225 50  0001 C CNN
-F 3 "~" H 1550 1225 50  0001 C CNN
-	1    1550 1225
+P 1325 1225
+F 0 "J3" H 1325 1300 50  0000 C CNN
+F 1 "GND" H 1425 1225 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 1325 1225 50  0001 C CNN
+F 3 "~" H 1325 1225 50  0001 C CNN
+	1    1325 1225
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -976,11 +976,7 @@ $EndComp
 Connection ~ 1950 925 
 Wire Wire Line
 	1950 925  2050 925 
-Wire Wire Line
-	1725 925  1825 925 
 Connection ~ 1825 925 
-Wire Wire Line
-	1750 1225 1825 1225
 Connection ~ 1825 1225
 $Comp
 L amplifier_board-rescue:VCC-power #PWR0113
@@ -1880,7 +1876,7 @@ L amplifier_board-rescue:R-Device R11
 U 1 1 5CEF7752
 P 5650 1450
 F 0 "R11" V 5550 1400 50  0000 C CNN
-F 1 "50k" V 5550 1525 50  0000 C CNN
+F 1 "68k" V 5550 1525 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5580 1450 50  0001 C CNN
 F 3 "~" H 5650 1450 50  0001 C CNN
 	1    5650 1450
@@ -2021,4 +2017,25 @@ Wire Wire Line
 Connection ~ 10100 4400
 Wire Wire Line
 	10100 4400 10225 4400
+$Comp
+L amplifier_board-rescue:C-Device C30
+U 1 1 5D03DFB8
+P 1600 1075
+F 0 "C30" V 1475 1000 50  0000 C CNN
+F 1 "2.2uF" V 1475 1175 50  0000 C CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 1638 925 50  0001 C CNN
+F 3 "~" H 1600 1075 50  0001 C CNN
+	1    1600 1075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 925  1600 925 
+Connection ~ 1600 925 
+Wire Wire Line
+	1600 925  1825 925 
+Wire Wire Line
+	1525 1225 1600 1225
+Connection ~ 1600 1225
+Wire Wire Line
+	1600 1225 1825 1225
 $EndSCHEMATC
