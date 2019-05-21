@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name class-d)(type KiCad)(uri C:/Users/forte/Desktop/class-d)(options "")(descr ""))
+  (lib (name Desktop)(type KiCad)(uri C:/Users/MAIN/Desktop)(options "")(descr ""))
+  (lib (name patch)(type KiCad)(uri ${KIPRJMOD}/patch)(options "")(descr ""))
 )

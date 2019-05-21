@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\MAIN\Desktop\class-d\amplifier_board.sch</source>
+    <date>04/05/2019 12:37:33</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>amplifier_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R6">
+      <value>15k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA2C628</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>11k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA2C63F</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AD8038</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf</datasheet>
+      <libsource lib="amplifier_board-rescue" part="AD8001AR-Amplifier_Operational" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA3D4D5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>150k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA3D4EA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA3D4F1</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>100k</value>
+      <footprint>Potentiometers:Potentiometer_Alps_RK163_Double_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R_POT_Dual-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA3D4FE</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA3D508</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>150k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA3D511</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AD8613</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22139C.pdf</datasheet>
+      <libsource lib="amplifier_board-rescue" part="MCP6561-OT-Amplifier_Operational" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA3D519</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>AD8468</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</datasheet>
+      <libsource lib="AD8468" part="AD8468" description="1 MHz, Low-Power Op Amp, SC-70-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA81C87</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>SQJ402EP</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <datasheet>www.vishay.com/docs/73152/si7336adp.pdf</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Si7336ADP-Transistor_FET" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA90C0E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SQJ402EP</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <datasheet>www.vishay.com/docs/73152/si7336adp.pdf</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Si7336ADP-Transistor_FET" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA90E95</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="L-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA90FC2</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA91729</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CABD33C</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CAC0872</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Q_NMOS_GSD-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB09C86</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>11k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB1AE26</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Schottky</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB458CA</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Schottky</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB45B47</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LTC4444-5</value>
+      <footprint>Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c</datasheet>
+      <libsource lib="LTC4444-5" part="LTC4444-5" description="High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB7452D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBA51F1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Schottky</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBA54AB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AUDIO</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC7617F</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>internal sawtooth</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Jumper-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCF26A4</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>internal audio</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Jumper-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA5AAD0</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA99DBA</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>AD8468</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</datasheet>
+      <libsource lib="AD8468" part="AD8468" description="1 MHz, Low-Power Op Amp, SC-70-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB4D2EE</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>AD8038</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ad8001.pdf</datasheet>
+      <libsource lib="amplifier_board-rescue" part="AD8001AR-Amplifier_Operational" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB62323</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB67810</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1n</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB7CCA0</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>OFF</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB82A36</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>AMP</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBA5EB6</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>L7805</value>
+      <footprint>TO_SOT_Packages_SMD:TO-252-2_Rectifier</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC2545D</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>470uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_8x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC268F3</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470uF</value>
+      <footprint>Capacitors_SMD:CP_Elec_8x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="CP-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC26C9E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC26F7A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC4457A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>VCC (7-14V)</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Conn_01x01_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC642C3</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>GND</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Conn_01x01_Female-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CC64604</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCF4443</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCFBB76</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD0AA9F</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD124B5</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD1A447</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD6243C</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>B</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCC2E4F</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>SQJ402EP</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <datasheet>www.vishay.com/docs/73152/si7336adp.pdf</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Si7336ADP-Transistor_FET" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8DB5</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>SQJ402EP</value>
+      <footprint>SMD_Packages:SO-8_PowerPAK_Vishay_Single</footprint>
+      <datasheet>www.vishay.com/docs/73152/si7336adp.pdf</datasheet>
+      <libsource lib="amplifier_board-rescue" part="Si7336ADP-Transistor_FET" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8DBB</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>10uH</value>
+      <footprint>Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="L-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8DC1</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8DC7</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Schottky</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8DE8</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Schottky</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8DEE</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>LTC4444-5</value>
+      <footprint>Housings_SSOP:MSOP-8-1EP_3x3mm_Pitch0.65mm</footprint>
+      <datasheet>https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c</datasheet>
+      <libsource lib="LTC4444-5" part="LTC4444-5" description="High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8E01</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8E0E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Schottky</value>
+      <footprint>Diodes_SMD:D_SMA-SMB_Universal_Handsoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="D_Schottky-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8E14</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>A</value>
+      <footprint>Wire_Pads:SolderWirePad_single_SMD_5x10mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCD8E39</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCF6BEC</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper-Device</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="amplifier_board-rescue" part="Jumper-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD2B7DE</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper-Device</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="amplifier_board-rescue" part="Jumper-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD2B8A0</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>5k</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT_TRIM" description="Trim-potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCE2B00</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CCF9160</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD0E108</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD0E250</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD68FA3</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD740B4</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD9944D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CD994F5</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>LM27761</value>
+      <footprint>Housings_DFN_QFN:VDFN-8-1EP_2x2mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm27761.pdf</datasheet>
+      <libsource lib="Regulator_SwitchedCapacitor" part="LM27761" description="low-noise regulated switched-capacitor voltage inverter with 2.7V-5.5V input to -1.5 to -5V Output Voltage, WSON-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDEC1F0</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CDEC76F</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE37174</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEA8309</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>200k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEF7603</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>68k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEF7752</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>5V</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4BCC1</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>-5v</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4BDFC</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA00C0</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA01AA</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFBC018</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFBC020</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="amplifier_board-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D03DFB8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AD8468" part="AD8468">
+      <aliases>
+        <alias>TS881xCx</alias>
+        <alias>MCP6561x-LT</alias>
+      </aliases>
+      <description>1 MHz, Low-Power Op Amp, SC-70-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf</docs>
+      <footprints>
+        <fp>*SC?70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8468</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="SDN" type="NotConnected"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT_TRIM">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LTC4444-5" part="LTC4444-5">
+      <aliases>
+        <alias>IR2106</alias>
+      </aliases>
+      <description>High and Low Side Gate Driver, 600V operation, Output Current 130/270mA, PDIP-8/SOIC-8</description>
+      <docs>https://www.infineon.com/dgdl/ir2101.pdf?fileId=5546d462533600a4015355c7a755166c</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC4444-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Tinp" type="input"/>
+        <pin num="2" name="Binp" type="input"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="BG" type="output"/>
+        <pin num="6" name="VB" type="passive"/>
+        <pin num="7" name="TG" type="output"/>
+        <pin num="8" name="TS" type="passive"/>
+        <pin num="9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_SwitchedCapacitor" part="LM27761">
+      <description>low-noise regulated switched-capacitor voltage inverter with 2.7V-5.5V input to -1.5 to -5V Output Voltage, WSON-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm27761.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP?2x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM27761</field>
+        <field name="Footprint">Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CPOUT" type="power_out"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+        <pin num="5" name="VFB" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="C-" type="passive"/>
+        <pin num="8" name="C+" type="passive"/>
+        <pin num="9" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="AD8001AR-Amplifier_Operational">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8001AR-Amplifier_Operational</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="CP-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="Conn_01x01_Female-Connector">
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="D_Schottky-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="Jumper-Device">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="L-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="MCP6561-OT-Amplifier_Operational">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6561-OT-Amplifier_Operational</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="Q_NMOS_GSD-Device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="R_POT_Dual-Device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_Dual-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="amplifier_board-rescue" part="Si7336ADP-Transistor_FET">
+      <footprints>
+        <fp>*PowerPAK*SO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Si7336ADP-Transistor_FET</field>
+        <field name="Footprint">Package_SO:PowerPAK_SO-8_Single</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AD8468">
+      <uri>C:\Users\MAIN\Desktop\class-d/AD8468.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="LTC4444-5">
+      <uri>C:\Users\MAIN\Desktop\class-d/LTC4444-5.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Regulator_SwitchedCapacitor">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_SwitchedCapacitor.lib</uri>
+    </library>
+    <library logical="amplifier_board-rescue">
+      <uri>C:\Users\MAIN\Desktop\class-d/amplifier_board-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q5-Pad4)">
+      <node ref="U9" pin="4"/>
+      <node ref="Q5" pin="4"/>
+    </net>
+    <net code="2" name="Net-(Q4-Pad4)">
+      <node ref="Q4" pin="4"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="3" name="VCC">
+      <node ref="U3" pin="3"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q4" pin="5"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="4" name="Net-(C5-Pad2)">
+      <node ref="U9" pin="6"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C27" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U9" pin="9"/>
+      <node ref="D7" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="C30" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U8" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="U10" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="U10" pin="9"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(JP1-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(JP1-Pad2)">
+      <node ref="U3" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(JP3-Pad2)">
+      <node ref="U9" pin="1"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="9" name="+5V">
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U7" pin="7"/>
+      <node ref="R12" pin="2"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R6" pin="2"/>
+      <node ref="J6" pin="1"/>
+      <node ref="U8" pin="6"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="10" name="-5V">
+      <node ref="C17" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U10" pin="4"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J7" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C5-Pad1)">
+      <node ref="Q5" pin="5"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="L2" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="12" name="Net-(C15-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R10-Pad1)">
+      <node ref="U10" pin="5"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C14-Pad2)">
+      <node ref="C26" pin="2"/>
+      <node ref="U10" pin="3"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="15" name="Net-(C15-Pad2)">
+      <node ref="C27" pin="1"/>
+      <node ref="C15" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C28-Pad2)">
+      <node ref="C29" pin="1"/>
+      <node ref="C28" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D7-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D8-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="19" name="Net-(RV4-Pad2)">
+      <node ref="RV4" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="20" name="Net-(R6-Pad1)">
+      <node ref="RV4" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="21" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="RV4" pin="3"/>
+    </net>
+    <net code="22" name="/audio_in">
+      <node ref="J2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U10-Pad6)">
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="24" name="Net-(C24-Pad1)">
+      <node ref="U10" pin="8"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C24-Pad2)">
+      <node ref="U10" pin="7"/>
+      <node ref="C24" pin="2"/>
+    </net>
+    <net code="26" name="Net-(JP3-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="JP3" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C28-Pad1)">
+      <node ref="C28" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="28" name="Net-(Q1-Pad4)">
+      <node ref="U3" pin="7"/>
+      <node ref="Q1" pin="4"/>
+    </net>
+    <net code="29" name="Net-(Q3-Pad4)">
+      <node ref="U3" pin="4"/>
+      <node ref="Q3" pin="4"/>
+    </net>
+    <net code="30" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q3" pin="5"/>
+    </net>
+    <net code="32" name="Net-(RV2-Pad5)">
+      <node ref="U1" pin="2"/>
+      <node ref="RV2" pin="5"/>
+    </net>
+    <net code="33" name="Net-(R3-Pad2)">
+      <node ref="RV2" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="34" name="Net-(RV2-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="36" name="Net-(JP4-Pad1)">
+      <node ref="JP4" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="37" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="RV2" pin="6"/>
+    </net>
+    <net code="38" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="RV2" pin="4"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="42" name="Net-(R4-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="43" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="44" name="Net-(RV1-Pad2)">
+      <node ref="U8" pin="3"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="45" name="Net-(R9-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="46" name="/audio">
+      <node ref="JP4" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="47" name="Net-(U7-Pad5)">
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="48" name="Net-(C19-Pad1)">
+      <node ref="U7" pin="6"/>
+      <node ref="C19" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="49" name="Net-(U7-Pad8)">
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="50" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="51" name="Net-(C8-Pad2)">
+      <node ref="U8" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U7" pin="3"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="53" name="Net-(U8-Pad5)">
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="54" name="/sawtooth">
+      <node ref="U4" pin="4"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="55" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+  </nets>
+</export>
